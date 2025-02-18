@@ -1,6 +1,6 @@
 # Book Recommendation System 📚
 
-![Book Recommendation System](screenshots/front.png)
+![Book Recommendation System](/screenshots/front.png)
 
 A full-stack web application that provides personalized book recommendations using TypeScript, Express, MongoDB, and advanced search capabilities.
 
