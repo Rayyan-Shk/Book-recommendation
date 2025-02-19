@@ -17,7 +17,7 @@ app.use(express.static(path.join(__dirname, '..', 'public')));
 app.use('/books', bookRoutes);
 app.use('/recommendations', recommendationRoutes);
 
-const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/bookDB';
+const mongoURI = process.env.MONGODB_URI || '';
 mongoose
   .connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true } as mongoose.ConnectOptions)
   .then(() => console.log('MongoDB connected'))
